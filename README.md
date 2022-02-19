@@ -2,10 +2,12 @@
 
 ## Usage
 ```html
-<wcheckbox label="Click me!" [(wngModel)]="value.checkbox" (wngModelChange)="test()" ></wcheckbox>
+<wcheckbox label="Click me!" [(model)]="value.checkbox" (modelChange)="test()" ></wcheckbox>
 ```
 
 ## Arguments
 ```
 label: string | Displayed text
+model: string | Returns the state of checkbox
+modelChange | Called when model changes
 ```

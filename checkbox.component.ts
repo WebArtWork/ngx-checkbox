@@ -5,8 +5,8 @@ import { Component, Input, Output, EventEmitter } from '@angular/core';
 	styleUrls: ['./checkbox.component.scss']
 })
 export class CheckboxComponent{
-	@Input() wngModel;
+	@Input() model;
 	@Input() label;
-	@Output() wngModelChange = new EventEmitter()
+	@Output() modelChange = new EventEmitter()
 	constructor() {}
 }
