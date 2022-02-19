@@ -8,6 +8,6 @@
 ## Arguments
 ```
 label: string | Displayed text
-model: string | Returns the state of checkbox
+model: boolean | Returns the state of checkbox
 modelChange | Called when model changes
 ```
