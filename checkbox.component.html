@@ -2,7 +2,7 @@
 	<input class="w-checkbox__input" type="checkbox" name="text" [(ngModel)]="model" (ngModelChange)="modelChange.emit(model)">
 	<div class="w-checkbox__body">
 		<span class="w-checkbox__svg"><svg width="12px" height="10px"><use xlink:href="#check"></use></svg></span>
-		<span class="w-checkbox__text">{{label}}</span>
+		<span class="w-checkbox__text" *ngIf="label">{{label}}</span>
 	</div>
 </label>
 
