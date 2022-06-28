@@ -1,5 +1,11 @@
 # ngx-checkbox
 
+## Installation
+
+```sh
+waw add ngx-checkbox
+```
+
 ## Usage
 ```html
 <wcheckbox label="Click me!" [(model)]="value.checkbox" (modelChange)="test()" ></wcheckbox>
