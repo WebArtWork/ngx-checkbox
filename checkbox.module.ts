@@ -14,4 +14,4 @@ import { CheckboxComponent } from './checkbox.component';
 
 })
 
-export class CheckboxModule { }
+export class CheckboxModule {}
