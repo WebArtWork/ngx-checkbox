@@ -10,7 +10,16 @@ waw add ngx-checkbox
 ```html
 <wcheckbox label="Click me!" [(model)]="value.checkbox" (modelChange)="test()" ></wcheckbox>
 ```
+```
+ts 
+import { CheckboxModule } from 'src/app/modules/checkbox/checkbox.module';
+@NgModule({
+	imports: [
+		CheckboxModule
+	]
+})
 
+```
 ## Arguments
 ```
 label: string | Displayed text
